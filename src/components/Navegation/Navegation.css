@@ -5,15 +5,20 @@
            font-size:1.2rem; 
 }
 
-ul{ list-style-type: none;}
-
 ul button{background-color: #344D67;
           color:#6ECCAF;
-}     
+          
+}   
 
-.nav-hover:hover{background-color:#6ECCAF;
-                 border-radius:15px;
-                 color: #344D67;
+ul button:hover{background-color:#6ECCAF;
+                       border-radius:15px;
+                       color: #344D67;
 }
+
+
+
+
+
+
 
 

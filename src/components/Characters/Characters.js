@@ -53,20 +53,24 @@ export default function Characters () {
     },[]) 
     
     return( 
-        <Fragment>
-            <Navegation/>
-            <section className="sec-filtro py-4">
-               <h2 >Filters</h2>
-               <div className="d-flex justify-content-between flex-wrap">
+      <Fragment>
+        <Navegation/>
+        <main className="container">
+            <section className="sec-filtro py-5 ">
+              <h2 >Filters</h2>
+              <div className="d-flex justify-content-between flex-wrap">
                  <Filters  nombreFiltro="Character Alive" datoFiltro="Alive" muestraValor={mostrarValor}/>
                  <Filters  nombreFiltro="Character Dead" datoFiltro="Dead" muestraValor={mostrarValor}/>
                  <Filters  nombreFiltro="Female" datoFiltro="Female" muestraValor={mostrarValor}/>
                  <Filters  nombreFiltro="Male" datoFiltro="Male" muestraValor={mostrarValor}/>
                  <Filters  nombreFiltro="Origin Unknown" datoFiltro="unknown" muestraValor={mostrarValor}/>
-               </div>
+              </div>
             </section>
+             
             <SectionCards datos={datos}/>
-        </Fragment>
+             
+        </main>
+      </Fragment>
     )
     
 }
