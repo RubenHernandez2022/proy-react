@@ -5,7 +5,7 @@
 
 .color-name{color:whitesmoke;}
 
-.boton-now{display:grid;
+.boton-show{display:grid;
            grid-template-columns: repeat(2,1fr);
            background-color:#6ECCAF;
            border:0px;

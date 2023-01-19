@@ -6,7 +6,6 @@ export default function Card({info}) {
   const [Ocultar,setOcultar]=useState(true);
   
   const mostrar=()=>{
-    // console.log(info)
     setOcultar(false)
   }
   
@@ -21,7 +20,7 @@ export default function Card({info}) {
             <div className="d-flex flex-column aling-items-center p-2">
                <img src={info.image} alt={info.image}/>
                <h2 className="d-flex justify-content-center color-name">{info.name}</h2>
-               <button onClick={mostrar} className={Ocultar === true ?"d-flex align-self-end boton-now":"d-none"}>Now more..</button>  
+               <button onClick={mostrar} className={Ocultar === true ?"d-flex align-self-end boton-show":"d-none"}>Show more..</button>  
             </div>
            
             {Ocultar ===false?
