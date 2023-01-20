@@ -9,9 +9,9 @@ export default function Navegation () {
             <div className="container-fluid me-4">
               <h2>Rick & Morty</h2>
               <ul  className="d-flex flex-row">
-                  <button className="border border-0 p-3"><NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/">Home</NavLink></button>
-                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Characters"><button className="border border-0 p-3">Characters</button></NavLink>
-                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Contact"><button className="border border-0 p-4">Contact</button></NavLink>
+                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/"><li className="border border-0 p-3 subra" >Home</li></NavLink>
+                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Characters" activeClassName="active"><li className="border border-0 p-3 subra" >Characters</li></NavLink>
+                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Contact" activeClassName="active"><li className="border border-0 p-4 subra">Contact</li></NavLink>
               </ul>
             </div>
         </nav>
