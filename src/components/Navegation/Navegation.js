@@ -5,13 +5,13 @@ export default function Navegation () {
  
     return(
         
-        <nav className="navbar navbar-expanded-lg fondo-nav ">
+        <nav className="navbar navbar-expanded-lg fondo-nav w-100">
             <div className="container-fluid me-4">
-              <h2>Rick & Morty</h2>
+              <h2>Productos</h2>
               <ul  className="d-flex flex-row">
-                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/"><li className="border border-0 p-3 subra" >Home</li></NavLink>
-                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Characters" activeClassName="active"><li className="border border-0 p-3 subra" >Characters</li></NavLink>
-                  <NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Contact" activeClassName="active"><li className="border border-0 p-4 subra">Contact</li></NavLink>
+                  <li className="border border-0 p-3 subra" ><NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/">Home</NavLink></li>
+                  <li className="border border-0 p-3 subra" ><NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Cliente" activeClassName="active">Cliente</NavLink></li>
+                  <li className="border border-0 p-3 subra"><NavLink style={{color:'inherit',textDecoration:'inherit'}} to="/Administrador" activeClassName="active">Administrador</NavLink></li>
               </ul>
             </div>
         </nav>

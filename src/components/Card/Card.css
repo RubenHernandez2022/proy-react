@@ -1,13 +1,10 @@
-.tarjeta{
-        background-color:#223142;
-        border-radius:10px;
+.tarjeta{background-color:#223142;
+         border-radius:10px;
 }
 
 .color-name{color:whitesmoke;}
 
-.boton-show{display:grid;
-           grid-template-columns: repeat(2,1fr);
-           background-color:#6ECCAF;
+.boton-show{background-color:#6ECCAF;
            border:0px;
            border-radius:5px;
            height: 35px;

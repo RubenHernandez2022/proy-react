@@ -1,22 +1,22 @@
-.fondo-nav{background-color: #344D67;
+.fondo-nav{background-color: gray;
            top:0px;
            height:13vh;
-           color:#6ECCAF;
+           color:white;
            font-size:1.2rem;
-           width:100%;  
+            
 }
 
 
 .subra{list-style: none;}   
 
-ul li:hover{background-color:#6ECCAF;
+ul li:hover{background-color:black;
             border-radius:10px;
-            color: #344D67;
+            color:white;
                   
 } 
 
-.active{color: #344D67!important;
-        background-color:#6ECCAF;
+.active{color: white!important;
+        background-color:black;
         border-radius:10px;
 }
 

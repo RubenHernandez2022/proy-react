@@ -41,7 +41,3 @@ export default function Card({info}) {
 
     
 }
-// list-group    
-// list-group-item
-// list-group-item
-// list-group-item

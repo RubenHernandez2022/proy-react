@@ -1,8 +1,9 @@
-.boton-home{background-color:#344D67;
-            color:#6ECCAF;
+.boton-home{background-color:BLACK;
+            color:WHITE;
 } 
 
-.boton-home:hover{background-color:#6ECCAF;
-                  color:#344D67;
+.boton-home:hover{background-color:rgb(155, 93, 93);
+                  color:black;
+                 
 } 
 
