@@ -18,19 +18,19 @@ export default function Card({info}) {
       <div className="d-flex flex-row">
         <div className="d-flex  mb-4 ms-2 tarjeta"> 
             <div className="d-flex flex-column aling-items-center p-2">
-               <img src={info.image} alt={info.image}/>
-               <h2 className="d-flex justify-content-center color-name">{info.name}</h2>
-               <button onClick={mostrar} className={Ocultar === true ?"d-flex align-self-end boton-show":"d-none"}>Show more..</button>  
+               {/* <img src={info.image} alt={info.image}/> */}
+               <h2 className="d-flex justify-content-center color-name">{info.producto}</h2>
+               <button onClick={mostrar} className={Ocultar === true ?"d-flex align-self-end boton-show":"d-none"}>Comprar</button>  
             </div>
            
             {Ocultar ===false?
             <div className="d-flex flex-column align-items-center ancho-tarjeta">
               <button className="cierre-menu d-flex align-self-end me-5 mt-5" onClick={ocultarInfo}>X</button>
               <ul>     
-                 <li className="lista-info resaltar">Character Status {info.status}</li>
-                 <li className="lista-info">Species <li className="resaltar">{info.species}</li></li>
-                 <li className="lista-info">Origin  <li className="resaltar">{info.origin.name}</li></li>
-                 <li className="lista-info" >Gender <li className="resaltar">{info.gender}</li></li>
+                 <li className="lista-info resaltar">Productos {info.tipoProducto}</li>
+                 <li className="lista-info">Tipo Producto <li className="resaltar">{info.tipoProducto}</li></li>
+                 <li className="lista-info">Producto  <li className="resaltar">{info.producto}</li></li>
+                 <li className="lista-info" >Marca <li className="resaltar">{info.marca}</li></li>
               </ul>
             </div>:""
             }

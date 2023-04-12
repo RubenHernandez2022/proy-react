@@ -1,10 +1,10 @@
-.tarjeta{background-color:#223142;
+.tarjeta{background-color:gray;
          border-radius:10px;
 }
 
 .color-name{color:whitesmoke;}
 
-.boton-show{background-color:#6ECCAF;
+.boton-show{background-color:white;
            border:0px;
            border-radius:5px;
            height: 35px;
@@ -12,8 +12,8 @@
 
 .ancho-tarjeta{width:500px;}
 
-.cierre-menu{background-color:#6ECCAF;
-             color:#223142;
+.cierre-menu{background-color:black;
+             color:white;
              border:0px;
              width:30px;
              height:30px;
@@ -25,7 +25,7 @@
             padding:15px;   
 }  
             
-.lista-info:hover{background-color:#6ECCAF;
+.lista-info:hover{background-color:white;
                   color:#223142;
                   font-weight:900; 
 }  
